@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Return Item Receipt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Return Item Receipt</h1>
+        <p>Receipt Number: {{receiptNumber}}</p>
+        <p>Date: {{date}}</p>
+    </div>
+    <div>
+        <p>User ID: {{userId}}</p>
+        <p>Name: {{name}}</p>
+        <p>Site: {{site}}</p>
+        <p>Phone: {{phone}}</p>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Size</th>
+                <th>Pisces</th>
+                <th>Mark</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{{sizesRows}}}
+        </tbody>
+    </table>
+    <div>
+        <p>Grand Total: {{grandTotal}}</p>
+        <p>Notes: {{notes}}</p>
+    </div>
+</body>
+</html>

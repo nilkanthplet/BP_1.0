@@ -1,0 +1,25 @@
+{
+  "name": "return-items-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.0",
+    "handlebars": "^4.7.8",
+    "helmet": "^8.0.0",
+    "html-pdf": "^1.5.0",
+    "mongoose": "^7.8.3",
+    "puppeteer": "^23.10.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
